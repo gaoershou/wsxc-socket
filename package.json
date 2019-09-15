@@ -1,0 +1,28 @@
+{
+  "name": "spider",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-session": "^1.16.1",
+    "glob": "^7.1.4",
+    "http-errors": "~1.6.3",
+    "md5-node": "^1.0.1",
+    "morgan": "~1.9.1",
+    "mysql": "^2.17.1",
+    "node-pre-gyp": "^0.13.0",
+    "node-uuid": "^1.4.8",
+    "redis": "^2.8.0",
+    "request": "^2.88.0",
+    "sha1": "^1.1.1",
+    "superagent": "^5.0.5",
+    "superagent-proxy": "^2.0.0",
+    "ws": "^7.1.2"
+  }
+}
